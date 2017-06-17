@@ -80,6 +80,10 @@ main {
 	margin: auto;
 }
 
+#image{
+	max-width: 300px;
+	max-width: 200px;
+}
 /* The following lines were added by Amer on June 11, 2017 at 11:02 pm */
 
 .mapClass {
@@ -146,5 +150,3 @@ main {
 footer {
   text-align: center;
 }
-
-

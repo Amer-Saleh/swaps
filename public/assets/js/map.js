@@ -1,10 +1,8 @@
 // This code of lines were added by Amer on June 11,2017 at 11:11pm
-// $("#submitSwapLocation").on("click", function(event){
 	$(document).on("click", "#submitSwapLocation", function(event){
 	event.preventDefault();
 	var map;           
 	var swapLocation = $(this).attr("value");
-	// var swapLocation = $("#swapLocation").attr("data");
 	console.log(swapLocation);
 	initMap();
 	
@@ -45,5 +43,4 @@
 	});//end of click
 
 	initMap();
-	//$("#map").addClass("mapClass");
 });// end of on click
